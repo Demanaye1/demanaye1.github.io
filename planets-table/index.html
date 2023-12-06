@@ -16,23 +16,36 @@
                     <caption>
                         Data about the planets of our solar system (Planetary facts taken from 
                         <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+
                     </caption>
                     <colgroup>
-                        <col span="2">  
-                        <col title="Name">
-                        <col title=" Mass (10<sup>24</sup>kg)"> 
-                        <col title=" Diameter (km)"> 
-                        <col title="Density (kg/m<sup>3</sup>)">
-                        <col title="Gravity  (m/s<sup>2</sup>)">
-                        <col title="Length of day (hours)"> 
-                        <col title="Distance from Sun (10<sup>6</sup>km)"> 
-                        <col title="Mean temperature (°C)"> 
-                        <col title="Number of moons"> 
-                        <col title="Notes"> 
-                        <col title="Images"> 
+                        <col span="2">
+                        <col backgroundcolor="gray" barrier="backgroundcolor">
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
                     </colgroup>
                     <thead>
-                        <tr></tr>
+                         <tr>
+                            <th>Name </th>
+                            <th>Mass (10<sup>24</sup>kg) </th>
+                            <th>Diameter (km) </th>
+                            <th>Density (kg/m<sup>3</sup>) </th>
+                            <th>Gravity (m/s<sup>2</sup>) </th>
+                            <th>Length of day (hours) </th>
+                            <th>Distance from Sun (10<sup>6</sup>km) </th>
+                            <th>Mean temperature (°C) </th>
+                            <th>Number of moons </th>
+                            <th>Notes </th>
+                            <th>Image </th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr></tr>
@@ -46,7 +59,17 @@
                         <tr></tr>
                     </tbody>
                 </table>
-            </main>                                                                                        
+            </main>                
+                <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
+        
+                Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        
+                <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
+                    
+                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
+                
+                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
+                    
                 <!-- Please note that you do NOT need to add a table footer for this assignment. -->
     </body>
 </html>
